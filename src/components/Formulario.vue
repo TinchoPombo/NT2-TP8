@@ -3,7 +3,7 @@
   <section class="src-components-formulario">
     <div class="jumbotron">
 
-      <h1>Agregar usuarios</h1>
+      <h1>Nuevo usuario</h1>
       <hr>
 
       <vue-form :state="formState" @submit.prevent="enviar()">
@@ -90,7 +90,7 @@
       <br>
 
       <router-link to="/usuarios">
-        <button type="button" class="btn btn-info">
+        <button type="button" class="btn btn-warning">
           Ver usuarios
         </button>
       </router-link>
